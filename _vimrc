@@ -522,5 +522,5 @@ endfunction
 nnoremap <silent><leader>- :call FillLine('-')<CR>
 
 " Highlight characters that go over 80 columns
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929 guifg=#ffffff
 match OverLength /\%81v.\+/
